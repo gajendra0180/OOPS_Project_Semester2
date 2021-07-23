@@ -3,7 +3,7 @@ RAILWAY MANAGEMENT SYSTEM IN C++..........
 
 Project Made By :
 1)Gajendra Pal
-2)Gaurav Kumar Sharma
+2)Gaurav Kumar 
 3)Karan Dua
 
 */
@@ -102,8 +102,8 @@ public:
       int k = 0;
 
       cout << setw(71) << setfill('-') << "" << endl;
-      cout << "User Name: ";
-      cout << i.first << endl;
+      cout << "User Name: \t|";
+      cout << i.first <<"|"<< endl;
       for (auto &&j : i.second)
       {
         cout << "\t\t|"
