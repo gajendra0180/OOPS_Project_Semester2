@@ -102,7 +102,7 @@ public:
       int k = 0;
 
       cout << setw(71) << setfill('-') << "" << endl;
-      cout << "User Name: \t|";
+      cout << "      User Name:|";
       cout << i.first <<"|"<< endl;
       for (auto &&j : i.second)
       {
